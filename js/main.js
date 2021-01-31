@@ -12,6 +12,12 @@ function primerDialogo(){
             }
         }else{
             alert('No me parece que escribiste "bien"');
+            let nose=prompt("Preguntame quien me creo");
+            if(nose.includes("creo") || nose.includes("creó")){
+                alert("La s3ñal se pierde");
+                alert("REINICIANDO");
+                segundoDialogo();
+            }
         }
     }else{
         alert("No dijiste hola");
@@ -35,6 +41,12 @@ function segundoDialogo(){
             }
         }else{
             alert('No me parece que escribiste "bien"');
+            let nose=prompt("Preguntame quien me creo");
+            if(nose.includes("creo") || nose.includes("creó")){
+                alert("La s3ñal se pierde");
+                alert("REINICIANDO");
+                modoCalculadora();
+            }
         }
     }else{
         alert("No dijiste hola");
@@ -68,5 +80,3 @@ function modoCalculadora(){
         }
     }
 };
-
-primerDialogo();
