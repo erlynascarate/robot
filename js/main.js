@@ -80,3 +80,7 @@ function modoCalculadora(){
         }
     }
 };
+
+//Comienza a ejecutar el codigo
+
+primerDialogo();
